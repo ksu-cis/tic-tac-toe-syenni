@@ -63,3 +63,11 @@ for (i = 0; i < cells.Length; i++) {
 }
 
 setTurn();
+
+
+var cells = document.getElementsByClassName("cell")
+for (var i = 0; i < cells.length; i++) {
+    cells[i].addEventListener(event => {
+        form.su
+    })
+}
